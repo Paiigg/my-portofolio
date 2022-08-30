@@ -16,7 +16,7 @@ function About() {
           <div className="col-lg-6 align-self-center text-custom mt-4 text-responsive">
             <p className="">About</p>
             <h2>About <span className="text-primary">Me</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <p>“Mahasiswa Elektro yang antusias dan bermotivasi tinggi dengan kemampuan kepemimpinan, inisiatif, dan mencari tantangan baru. Berpengalaman dalam berbagai organisasi internal maupun eksternal kampus.</p>
           </div>       
         </div>
       </div>
