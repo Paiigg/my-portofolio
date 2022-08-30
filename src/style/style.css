@@ -1,0 +1,39 @@
+.bg-custom {
+  background-color: #F5FCFF;
+}
+
+.basic-navbar-nav {
+  border: none;
+}
+
+
+
+.text-custom  {
+  color: #282938;
+}
+
+.custom-hover:hover{
+  color: blue;
+
+}
+
+
+.slick-slide {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+  .text-responsive {
+    text-align: center;
+  } 
+  
+}
+
