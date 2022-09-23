@@ -4,6 +4,7 @@ import ProjectImage2 from '../assets/project-2.jpg'
 import ProjectImage3 from '../assets/project-3.jpg'
 import {Card, Button} from 'react-bootstrap';
 import React, { Component } from "react";
+import HomeImage from '../assets/Home.png'
 import Slider from "react-slick";
 import '../style/style.css'
 
@@ -68,26 +69,24 @@ function Project() {
             className="mySwiper"
           >
             <SwiperSlide>
-             <Card >
-                <Card.Img variant="top" src={ProjectImage1} />
+             <Card style={{height:'300px'}} >
+                <Card.Img variant="top" src={HomeImage} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Web Agency</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    My Second Project. Build with React JS and Tailwind CSS
                   </Card.Text>
                   
                 </Card.Body>
               </Card>
             </SwiperSlide>
             <SwiperSlide>
-             <Card >
-                <Card.Img variant="top" src={ProjectImage2} />
+             <Card style={{height:'300px'}}>
+                <Card.Img variant="top" src={HomeImage} />
                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
+                  <Card.Title>Web Agency</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                    My Second Project. Build with React JS and Tailwind CSS
                   </Card.Text>
                   
                 </Card.Body>
